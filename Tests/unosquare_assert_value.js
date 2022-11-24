@@ -6,7 +6,7 @@ module.exports = {
       .url("https://dev.unosquare.com/redmine/login")
       .waitForElementVisible('body')
       .setValue(userNameInputSelector, 'username')
-      .assert.valueEquals("input[name='username']", "username")
+      .assert.valueEquals("input[name='username']", "username") // assert.value es obsoleto usar asser.valueEquals
       .end();
   },
 };
