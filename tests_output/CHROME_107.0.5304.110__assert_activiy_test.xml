@@ -5,9 +5,9 @@
 
   <testsuite name="assert_activiy_test"
     errors="0" failures="0" hostname="" id="" package="assert_activiy_test" skipped="0"
-    tests="1" time="8.834" timestamp="">
+    tests="1" time="8.571" timestamp="">
   
-    <testcase name="Testing assert feature" classname="assert_activiy_test" time="8.834" assertions="7">
+    <testcase name="Testing assert feature" classname="assert_activiy_test" time="8.571" assertions="7">
 
     
 
