@@ -5,9 +5,9 @@
 
   <testsuite name="unosquare_assert_value"
     errors="0" failures="0" hostname="" id="" package="unosquare_assert_value" skipped="0"
-    tests="1" time="1.913" timestamp="">
+    tests="1" time="1.132" timestamp="">
   
-    <testcase name="Demo test unosquare" classname="unosquare_assert_value" time="1.913" assertions="2">
+    <testcase name="Demo test unosquare" classname="unosquare_assert_value" time="1.132" assertions="2">
 
     
 
