@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="unosquare_assert_equals"
+    errors="0" failures="0" hostname="" id="" package="unosquare_assert_equals" skipped="0"
+    tests="1" time="1.723" timestamp="">
+  
+    <testcase name="Demo test unosquare" classname="unosquare_assert_equals" time="1.723" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

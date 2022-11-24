@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="1">
+
+  <testsuite name="unosquare"
+    errors="0" failures="2" hostname="" id="" package="unosquare" skipped="0"
+    tests="1" time="13.18" timestamp="">
+  
+    <testcase name="Demo test unosquare" classname="unosquare" time="13.18" assertions="3">
+
+      <failure message="Testing if element &lt;nav-icon&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5370ms)">    at Demo test unosquare (/Users/efrain.martinez/Documents/Unosquare/Tests/unosquare.js:7:15)</failure>
+
+      <failure message="Testing if element &lt;.non_existing&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5097ms)">    at Demo test unosquare (/Users/efrain.martinez/Documents/Unosquare/Tests/unosquare.js:9:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
