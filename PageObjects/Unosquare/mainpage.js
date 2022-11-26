@@ -1,5 +1,32 @@
+var validateContactUs = {
+  contactUnosquare: function() {
+    this.api.pause(1000);
+    return this.waitForElementVisible('@contactusMenu', 1000)
+      .click('@contactusMenu')
+      .setValue('@companyTextField', 'QA CoE course')
+      .setValue('@phoneTextField', '3300000000')
+      .setValue('@messageTextArea', 'This is a Random Text used in a Course')
+      .click('@submitBtn')
+      .waitForElementVisible('@nameWarningMsg')
+      .pause(3000)
+  }
+};
+
+var clickinMultiplePages = {
+  clickMultiplePages: function(){
+    this.api.pause(2000)
+    return this.waitForElementVisible('@contactusMenu', 1000)
+    .click('@industriesMenu')
+    .waitForElementVisible('@industriesSection')
+    .click('@bsfiLearnMoreBtn')
+    .waitForElementVisible('@bsfiPage')
+    .pause(3000)
+  }
+};
+
 module.exports = {
     url: 'https://www.unosquare.com',
+    commands: [validateContactUs, clickinMultiplePages],
     elements: {
       contactusMenu: {
         selector: "li a[href = '/ContactUs']"
@@ -34,6 +61,34 @@ module.exports = {
       fiveFsFamily : {
         selector: "//div[@id='5Fs']/div/div[2]/div/p",
         locateStrategy: 'xpath'
+      },
+      companyTextField: {
+        selector: "input.hs-input[name = 'company']"
+      },
+      phoneTextField: {
+        selector: "input.hs-input[name = 'phone']"
+      },
+      messageTextArea: {
+        selector: "textarea.hs-input[name = 'message']"
+      },
+      submitBtn: {
+        selector: "input[value = 'Submit']"
+      },
+      nameWarningMsg: {
+        selector: "//div[contains(@class, 'hs_name')]//label[contains(., 'Please complete this required field.')]",
+        locateStrategy: 'xpath'
+      },
+      bsfiLearnMoreBtn: {
+        selector: "//*[@id='industries']/div[3]/div/div/div[1]/div/div[2]/a",
+        locateStrategy: 'xpath'
+      },
+      industriesSection: {
+        selector: ".gray-section",
+        locateStrategy: 'css selector'
+      },
+      bsfiPage: {
+        selector: "h1.header-title",
+        localStrategy: 'css selector'
       }
     }
   };

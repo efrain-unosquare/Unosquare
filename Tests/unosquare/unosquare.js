@@ -64,5 +64,15 @@ module.exports = {
         .assert.not.cssProperty(".content-home","padding-left","53px!important")
         .setValue('@inputSearchBlog', 'test')
         .end();
-    }
+    },
+
+    'test custom command example' : function(browser) {
+        var unosquare = browser.page.mainpage();
+        unosquare
+        .navigate()
+        .contactUnosquare()
+        .clickMultiplePages();
+        
+        browser.end();
+      },
 };

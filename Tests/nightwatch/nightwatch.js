@@ -1,5 +1,5 @@
 module.exports =  {
-    'nightwatch test validation page' : function(browser){
+   /* 'nightwatch test validation page' : function(browser){
         const nightwatch = browser.page.landingpage();
 
         nightwatch
@@ -24,5 +24,15 @@ module.exports =  {
         .setValue('@searchInputModal', 'assert')
         .click('@resultLink')
         .end();
+    },*/
+
+    'test custom command ' : function(browser){
+        var nightwatch = browser.page.landingpage();
+
+        nightwatch
+        .navigate()
+        .searchDocumentation();
+
+        browser.end();
     }
 }

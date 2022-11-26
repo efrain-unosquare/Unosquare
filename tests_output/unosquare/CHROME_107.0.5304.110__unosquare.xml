@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="unosquare.unosquare"
-    errors="1" failures="0" hostname="" id="" package="unosquare" skipped="0"
-    tests="1" time="8.341" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="unosquare" skipped="0"
+    tests="1" time="13.07" timestamp="">
   
-    <testcase name="test faild validation" classname="unosquare.unosquare" time="8.341" assertions="7">
+    <testcase name="test custom command example" classname="unosquare.unosquare" time="13.07" assertions="5">
 
     
 
@@ -17,39 +17,10 @@
 
     
 
-    
-
-    
-
-    
-    <error message="An error occurred while running .setValue() command on &lt;Element [name=@inputSearchBlog]&gt;: Timed out while waiting for element &#34;input[name=&#39;query&#39;]&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
-    Error
-    at test faild validation (/Users/efrain.martinez/Documents/Unosquare/Tests/unosquare/unosquare.js:70:10)
-    ]]></error>
     
     </testcase>
   
 
-  
-    <system-err>
-       NoSuchElementError
-   An element could not be located on the page using the given search parameters.
-
-    Try fixing by :
-    1. Please inspect the html before the step
-    2. Verify if an element with the mentioned selector is present in the DOM tree
-
-    Error location:
-    /Users/efrain.martinez/Documents/Unosquare/Tests/unosquare/unosquare.js:
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     68 |         .assert.cssProperty(&#34;.content-home&#34;, &#34;padding-left&#34;, &#34;53px&#34;)
-     69 |         .assert.not.cssProperty(&#34;.content-home&#34;,&#34;padding-left&#34;,&#34;53px!important&#34;)
-     70 |         .setValue(&#39;@inputSearchBlog&#39;, &#39;test&#39;) 
-     71 |         .end();
-     72 |     }
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-    </system-err>
   
 
     

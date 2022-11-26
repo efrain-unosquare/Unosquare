@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="nightwatch.nightwatch"
     errors="0" failures="0" hostname="" id="" package="nightwatch" skipped="0"
-    tests="2" time="8.769" timestamp="">
+    tests="1" time="5.454" timestamp="">
   
-    <testcase name="nightwatch test validation page" classname="nightwatch.nightwatch" time="3.518" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="activity test scrip POM " classname="nightwatch.nightwatch" time="5.251" assertions="5">
-
-    
-
-    
-
-    
+    <testcase name="test custom command " classname="nightwatch.nightwatch" time="5.454" assertions="2">
 
     
 
