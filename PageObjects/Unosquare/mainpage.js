@@ -1,11 +1,16 @@
+function getData() {
+  return require('../../externalTestData/unosquareForm.json');//externalTestData/unosquareForm.json
+  };
+
 var validateContactUs = {
   contactUnosquare: function() {
     this.api.pause(1000);
+    const form = getData(); // obteniendo informacion del json
     return this.waitForElementVisible('@contactusMenu', 1000)
       .click('@contactusMenu')
-      .setValue('@companyTextField', 'QA CoE course')
-      .setValue('@phoneTextField', '3300000000')
-      .setValue('@messageTextArea', 'This is a Random Text used in a Course')
+      .setValue('@companyTextField', form.company)
+      .setValue('@phoneTextField', form.phone)
+      .setValue('@messageTextArea', form.message)
       .click('@submitBtn')
       .waitForElementVisible('@nameWarningMsg')
       .pause(3000)

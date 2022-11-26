@@ -5,15 +5,9 @@
 
   <testsuite name="unosquare.unosquare"
     errors="0" failures="0" hostname="" id="" package="unosquare" skipped="0"
-    tests="1" time="13.07" timestamp="">
+    tests="1" time="6.989" timestamp="">
   
-    <testcase name="test custom command example" classname="unosquare.unosquare" time="13.07" assertions="5">
-
-    
-
-    
-
-    
+    <testcase name="test custom command example" classname="unosquare.unosquare" time="6.989" assertions="2">
 
     
 
