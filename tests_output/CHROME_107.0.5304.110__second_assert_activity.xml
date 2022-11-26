@@ -5,9 +5,13 @@
 
   <testsuite name="second_assert_activity"
     errors="0" failures="0" hostname="" id="" package="second_assert_activity" skipped="0"
-    tests="1" time="5.760" timestamp="">
+    tests="1" time="6.248" timestamp="">
   
-    <testcase name="Nightwatch assert activity" classname="second_assert_activity" time="5.760" assertions="8">
+    <testcase name="Nightwatch assert activity" classname="second_assert_activity" time="6.248" assertions="10">
+
+    
+
+    
 
     
 
