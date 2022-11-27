@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nightwatch": "^2.5.1"
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "nightwatch": "^2.5.1",
+    "path": "^0.12.7"
   },
   "dependencies": {
-    "chromedriver": "^107.0.3"
+    "chromedriver": "^107.0.3",
+    "superagent": "^8.0.4"
   }
 }

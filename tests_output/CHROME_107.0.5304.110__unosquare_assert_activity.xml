@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="6">
+
+  <testsuite name="unosquare_assert_activity"
+    errors="0" failures="2" hostname="" id="" package="unosquare_assert_activity" skipped="0"
+    tests="6" time="29.75" timestamp="">
+  
+    <testcase name="Test assert visible and verify visible" classname="unosquare_assert_activity" time="12.67" assertions="3">
+
+      <failure message="Testing if element &lt;xxx&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5217ms)">    at Test assert visible and verify visible (/Users/efrain.martinez/Documents/Unosquare/Tests/unosquare_assert_activity.js:7:15)</failure>
+
+      <failure message="Testing if element &lt;.non_existing&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5115ms)">    at Test assert visible and verify visible (/Users/efrain.martinez/Documents/Unosquare/Tests/unosquare_assert_activity.js:9:15)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Unosquare test assert attributeContains" classname="unosquare_assert_activity" time="0.5680" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Unosquare test assert attributeEquals " classname="unosquare_assert_activity" time="2.557" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Unosquare test assert containsText" classname="unosquare_assert_activity" time="2.585" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test assert cssProperty and not cssProperty" classname="unosquare_assert_activity" time="3.748" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test assert Value" classname="unosquare_assert_activity" time="7.621" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
