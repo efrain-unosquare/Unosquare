@@ -6,7 +6,7 @@ module.exports = {
         .end();
     },
 
-    'test unosquare contactUs' : function(browser) {
+    'Test unosquare contactUs' : function(browser) {
         browser
         .windowMaximize()
         .url('https://www.unosquare.com')
